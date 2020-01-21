@@ -110,8 +110,6 @@ def main():
     parser.add_argument('lport', type=int)
     parser.add_argument('rhost')
     parser.add_argument('rport', type=int)
-    parser.add_argument('-rf', '--recv_first',
-                        default=False, action='store_true')
     parser.add_argument('-d', '--debug', default=False,
                         action='store_true')
     args = parser.parse_args()
